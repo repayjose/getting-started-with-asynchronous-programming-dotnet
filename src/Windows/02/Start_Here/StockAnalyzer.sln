@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockAnalyzer.Windows", "StockAnalyzer.Windows\StockAnalyzer.Windows.csproj", "{C8F01325-3AA2-4435-A55F-CF411820FB90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06EC389B-57C9-4A20-B3B5-B88BE518D3BC} = {06EC389B-57C9-4A20-B3B5-B88BE518D3BC}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockAnalyzer.Core", "StockAnalyzer.Core\StockAnalyzer.Core.csproj", "{4571844D-AD38-44DA-B934-980858C5EB00}"
 EndProject
